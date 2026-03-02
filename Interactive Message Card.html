@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- User Input and Action Buttons -->
+    <input id="in" type="text" placeholder="Type here...">
+    <button onclick="show()">Show</button>
+    <button onclick="color()">Color</button>
+    <button onclick="add()">Add Note</button>
+    <button onclick="del()">Remove</button>
+    <button onclick="reset()">Reset</button>
+    <!-- The Card: Hidden by default using display: none -->
+    <div id="card" style="border: 2px solid black; padding: 20px; display: none; margin-top: 20px;">
+        <h2 id="msg"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
